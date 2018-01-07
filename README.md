@@ -1,6 +1,8 @@
-# `dotfiles-rust-role`
+# `dotfiles-role-rust`
+# `dotfiles-role-rust`
 
-[![Build Status](https://travis-ci.org/thecjharries/dotfiles-rust-role.svg?branch=master)](https://travis-ci.org/thecjharries/dotfiles-rust-role)
+[![Build Status](https://travis-ci.org/thecjharries/dotfiles-role-rust.svg?branch=master)](https://travis-ci.org/thecjharries/dotfiles-role-rust)
+[![Build Status](https://travis-ci.org/thecjharries/dotfiles-role-rust.svg?branch=master)](https://travis-ci.org/thecjharries/dotfiles-role-rust)
 
 ## Requirements
 
@@ -32,7 +34,8 @@ rust_packages:
 
 ```yml
 ---
-- src: git+https://github.com/thecjharries/dotfiles-common-software-role.git
+- src: git+https://github.com/thecjharries/dotfiles-role-common-software.git
+- src: git+https://github.com/thecjharries/dotfiles-role-common-software.git
 ```
 
 ## Example Playbook
@@ -42,7 +45,8 @@ rust_packages:
 - hosts: all
 
   roles:
-    - role: dotfiles-rust-role
+    - role: dotfiles-role-rust
+    - role: dotfiles-role-rust
 ```
 
 ## License
