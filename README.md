@@ -1,7 +1,7 @@
 # `dotfiles-role-rust`
 
 [![Build Status](https://travis-ci.org/thecjharries/dotfiles-role-rust.svg?branch=master)](https://travis-ci.org/thecjharries/dotfiles-role-rust)
-[![GitHub release](https://img.shields.io/github/release/thecjharries/dotfiles-role-rust.svg)](https://github.com/thecjharries/dotfiles-role-rust)
+[![GitHub tag](https://img.shields.io/github/tag/thecjharries/dotfiles-role-rust.svg)](https://github.com/thecjharries/dotfiles-role-rust)
 
 ## Requirements
 
